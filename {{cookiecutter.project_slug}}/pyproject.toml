@@ -6,9 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "mytestpackage"
 version = "0.0.1"
 authors = [
-  { name="Markus Lang", email="datamastery87@gmail.com"},
+  { name="{{ cookiecutter.full_name }}", email="{{ cookiecutter.email }}"},
 ]
-description = "Sample Package"
+description = "{{ cookiecutter.project_short_description }}"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
